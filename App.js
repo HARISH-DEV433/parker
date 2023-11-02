@@ -3,18 +3,20 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View style={styles.contai}>
+      <Text>Park Resource Clubs Welcomes you!</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  contai: {
     flex: 1,
     backgroundColor: '#fff',
+    fontWeight: 'bold',
     alignItems: 'center',
     justifyContent: 'center',
+    textAlign: 'center',
   },
 });
