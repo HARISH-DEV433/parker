@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.contai}>
-      <Text>Park Resource Clubs Welcomes you!</Text>
+      <Text>Park Resource Club</Text>
       <StatusBar style="auto" />
     </View>
   );
